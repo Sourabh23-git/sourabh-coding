@@ -1,0 +1,16 @@
+body {
+    background-color: #ef8854;
+    height: 2100px;
+}
+
+.box {
+    background-color: rgb(32, 35, 37);
+}
+
+.head {
+    color: rgb(251, 249, 249);
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 200px;
+    z-index: auto;
+}

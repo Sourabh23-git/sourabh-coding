@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</HEad>
+
+<BODY style="background-color: #FE7743;">
+    <H1 style="text-align: center; text-decoration-line: underline;">STUDENT REGISTRATION FORM</H1>
+    <FORM>
+        <DIV>
+            <LABEL FOR="">FIRST NAME :</LABEL>
+            <INPUT TYPE="TEXT" ID="EMAIL" maxlength="10" required /> (max 10 characters a-z and A-Z)
+            <BR></BR>
+
+            <LABel for="">LAST NAME :</LABEL>
+            <input type="text" name="LAST NAME" maxlength="10" required> (max 10 characters a-z and A-Z)
+            <BR></BR>
+            <LAbel for="">DATE OF BIRTH   </LAbel>
+
+            <INPUT TYPE="DATE" name="date of birth" required></INPUT>
+
+            <BR></BR>
+            <LAbel for="">EMAIL ID :</LAbel>
+            <INPUT TYPE="text" name="EMAIL ID" required></INPUT>
+            <BR></BR>
+            <LAbel for="">MOBILE NUMBER :</LAbel>
+            <INPUT TYPE="text" name="EMAIL ID" maxlength="10" required></INPUT> (10 Digit number)
+            <BR></BR>
+            <LAbel for="">PASSWORD :</LAbel>
+            <INPUT TYPE="text" name="PASWORD" required></INPUT>
+            <BR></BR>
+            <LAbel for="">GENDER :</LAbel >
+                <INPUT TYPE="radio" id="MALE" name="GENDER" value="MALE" required></INPUT>
+                <LAbel for="MALE">MALE</LAbel >
+                <INPUT TYPE="radio" id="FEMALE" name="GENDER" value="FEMALE" required></INPUT>
+                <LAbel for="FEMALE">FEMALE</LAbel >
+                    <BR></BR>
+                    <LAbel for="">ADDRESS :</LAbel >
+                        <TExtarea rows="5" cols="21"></TExtarea> <br> <BR></BR>
+                        <LAbel for="">CITY :</LAbel>
+            <INPUT TYPE="text" name="CITY" maxlength="30"></INPUT> (max 30 characters a-z and A-Z)
+            <BR></BR>
+            <LAbel for="">PIN CODE :</LAbel>
+            <INPUT TYPE="text" name="PIN CODE" maxlength="6"></INPUT> (6 digit number)
+            <BR></BR>
+            <LAbel for="">STATE :</LAbel>
+            <INPUT TYPE="text" name="STATE" maxlength="30"></INPUT> (max 30 characters a-z and A-Z)
+            <BR></BR>
+            <LAbel for="">COUNTRY :</LAbel>
+            <INPUT TYPE="text" name="COUNTRY"></INPUT>
+            <BR></BR>
+
+
+            <LAbel for="">HOBBIES :</LAbel >
+                        DRAWING
+                        <INPUT TYPE="checkbox" name="hobby_drawing" value="drawing" ></INPUT>
+                        SINGING
+                        <INPUT TYPE="checkbox" name="hobby_singing"  value="singing"></INPUT>
+                        DANCING
+                        <input type="checkbox" name="Hobby_Dancing" value="Dancing" />
+                        SKETCHING
+                        <input type="checkbox" name="Hobby_Cooking" value="sketching" />
+                             
+                    
+                            OTHERS
+                            <input type="checkbox" name="Hobby_Other" value="OtherS">
+                            <input type="text" name="Other_Hobby" maxlength="30" /><BR></BR>
+                            <LABel>QUALIFICATION :</LABel>
+            </td>
+
+            <td>
+                <table style="margin-left:150PX ;">
+
+                    <tr>
+                        <td align="center"><b>SN.</b></td>
+                        <td align="center"><b>Examination</b></td>
+                        <td align="center"><b>Board</b></td>
+                        <td align="center"><b>Percentage</b></td>
+                        <td align="center"><b>Year of Passing</b></td>
+                    </tr>
+
+                    <tr>
+                        <td>1</td>
+                        <td>Class X</td>
+                        <td><input type="text" name="ClassX_Board" maxlength="30" /></td>
+                        <td><input type="text" name="ClassX_Percentage" maxlength="30" /></td>
+                        <td><input type="text" name="ClassX_YrOfPassing" maxlength="30" /></td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>Class XII</td>
+                        <td><input type="text" name="ClassXII_Board" maxlength="30" /></td>
+                        <td><input type="text" name="ClassXII_Percentage" maxlength="30" /></td>
+                        <td><input type="text" name="ClassXII_YrOfPassing" maxlength="30" /></td>
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td>Graduation</td>
+                        <td><input type="text" name="Graduation_Board" maxlength="30" /></td>
+                        <td><input type="text" name="Graduation_Percentage" maxlength="30" /></td>
+                        <td><input type="text" name="Graduation_YrOfPassing" maxlength="30" /></td>
+                    </tr>
+
+                    <tr>
+                        <td>4</td>
+                        <td>Masters</td>
+                        <td><input type="text" name="Masters_Board" maxlength="30" /></td>
+                        <td><input type="text" name="Masters_Percentage" maxlength="30" /></td>
+                        <td><input type="text" name="Masters_YrOfPassing" maxlength="30" /></td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td align="center">(10 char max)</td>
+                        <td align="center">(upto 2 decimal)</td>
+                    </tr>
+                </table>
+
+
+                <tr>
+                    <td>COURSES APPLIED FOR :</td>
+                    <td>
+
+                        <input type="radio" id="BCA" name="Course" value="BCA">
+                        <label for="BCA">BCA</label>
+                        <input type="radio" id="BSC" name="Course" value="BSC">
+                        <label for="BSC">BSC</label>
+                        <input type="radio" id="BCOM" name="Course" value="BCOM">
+                        <LABeL for="BCOM">BCOM</LABel>
+                        <input type="radio" id="BA" name="Course" value="BA">
+                        <LABEL for="BA">BA</LABEL>
+                    </td>
+                </tr>
+                <BR></BR>
+                <input style="padding: 10PX; " type="button" value="SUBMIT">
+                <input style="padding: 10PX;  " type="button" value="RESET">
+        </DIV>
+    </FORM>
+
+</BODY>
+
+</html>
+
+</html>

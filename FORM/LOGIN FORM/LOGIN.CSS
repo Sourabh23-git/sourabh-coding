@@ -1,0 +1,42 @@
+    .box {
+        margin-top: 200px;
+        margin-left: 270px;
+        height: 280px;
+        width: 253px;
+        background-color: rgb(7, 14, 11);
+        border-radius: 20px;
+    }
+    
+    .log {
+        margin-left: 95px;
+        margin-bottom: 30px;
+        margin-top: 40px;
+        color: aliceblue;
+    }
+    
+    .user {
+        margin-left: 28px;
+    }
+    
+    .check {
+        margin-left: 120px;
+        margin-top: 10px;
+        color: aliceblue;
+    }
+    
+    .button {
+        margin-top: 30px;
+        margin-left: 105px;
+    }
+    
+    .bod {
+        background-color: rgb(39, 59, 59);
+    }
+    
+    div:hover {
+        background-color: #cd2236;
+    }
+    
+    button:hover {
+        background-color: black;
+    }
